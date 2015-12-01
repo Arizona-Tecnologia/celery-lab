@@ -1,6 +1,8 @@
 # celery-lab
 
-A simple project for testing Celery task rejections.
+A simple project for testing Celery task rejections. It was originally created
+to help reproduce a [possible bug in
+Celery](https://github.com/celery/celery/issues/2944).
 
 ## Set up
 
