@@ -18,7 +18,7 @@ To access RabbitMQ web interface: http://localhost:15672/
 Start/run Celery Flower on a docker container.
 
 ```
-$ docker pull rabbitmq:3-management
+$ docker pull iserko/docker-celery-flower
 $ docker run -p 5555:5555 -d --name flower-lab --link rabbit-lab:rabbit \
 -e CELERY_BROKER_URL=amqp://guest:guest@rabbit:5672// \
 iserko/docker-celery-flower --broker_api=http://guest:guest@rabbit:15672/api/
